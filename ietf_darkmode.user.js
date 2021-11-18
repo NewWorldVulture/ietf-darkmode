@@ -5,14 +5,15 @@
 // @description  Dark theme / night mode for IETF RFCs
 // @author       Ada
 // @match        https://tools.ietf.org/html/*
+// @match        https://datatracker.ietf.org/doc/html/*
 // @grant        GM_addStyle
 // ==/UserScript==
 
 GM_addStyle('body { color: #111; background-color: #111; }');
 GM_addStyle('div { background-color: #111; }');
 
-GM_addStyle('pre { color: #930; }');
-GM_addStyle('span { color: #930; }');
+GM_addStyle('pre { color: #d64700; }');
+GM_addStyle('span { color: #d64700; }');
 
 GM_addStyle('div.content { margin: auto; }');
 
